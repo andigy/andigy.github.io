@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@100&display=swap');
+
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../media/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg);
+    background-size: cover;
+}
+
+/*div.text {
+    padding: 100px;
+}*/
+
+
+
+.night-sky {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    background: url('https://hd.unsplash.com/photo-1439923274069-a6f070db0c99');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.star-box {
+    width: 320px;
+    height: 360px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.star {
+    position: absolute;
+    box-shadow: 0 0 3px #fff;
+    border-radius: 50%;
+}
+
+.twinkle-star-1 {
+    width: 5px;
+    height: 6px;
+    right: 16%;
+    top: 45%;
+    background: #b6c8ff;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+    animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 1.61404s;
+    animation-delay: 1.61404s;
+}
+
+.twinkle-star-2 {
+    right: 32%;
+    top: 84.5%;
+    width: 4px;
+    height: 4px;
+    background: #f4ccbf;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+    animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 4.09091s;
+    animation-delay: 4.09091s;
+}
+
+.twinkle-star-3 {
+    background: #f4ccbf;
+    width: 3px;
+    height: 3px;
+    left: 30%;
+    top: 97%;
+    -webkit-animation: twinkle 0.75s alternate infinite;
+    animation: twinkle 0.75s alternate infinite;
+    -webkit-animation-delay: 1.77143s;
+    animation-delay: 1.77143s;
+}
+
+.twinkle-star-4 {
+    width: 5px;
+    height: 5px;
+    left: 53%;
+    top: 16.8%;
+    background: #b6c8ff;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+    animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 1.55357s;
+    animation-delay: 1.55357s;
+}
+
+.twinkle-star-5 {
+    background: #f4aaaa;
+    width: 4px;
+    height: 4px;
+    left: 32%;
+    top: 40%;
+    -webkit-animation: twinkle 0.75s alternate infinite;
+    animation: twinkle 0.75s alternate infinite;
+    -webkit-animation-delay: 0.88462s;
+    animation-delay: 0.88462s;
+}
+
+.twinkle-star-6 {
+    background: #f4aaaa;
+    width: 3px;
+    height: 3px;
+    left: 10%;
+    top: 48.5%;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+    animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 0.66s;
+    animation-delay: 0.66s;
+}
+
+.twinkle-star-7 {
+    background: #b6c8f9;
+    width: 3px;
+    height: 3px;
+    left: 29%;
+    bottom: -4%;
+    -webkit-animation: twinkle 0.75s alternate infinite;
+    animation: twinkle 0.75s alternate infinite;
+    -webkit-animation-delay: 0.03279s;
+    animation-delay: 0.03279s;
+}
+
+
+
+.line {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    background: rgba(246, 218, 230, 0.65);
+    -webkit-animation: line 7s alternate infinite;
+    animation: line 7s alternate infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.line-1 {
+    height: 215px;
+    transform: rotate(-10deg);
+    top: 21.5%;
+    left: 60.2%;
+}
+
+.line-2 {
+    height: 105px;
+    transform: rotate(-42deg);
+    top: 17%;
+    left: 68.5%;
+}
+
+.line-3 {
+    height: 119px;
+    transform: rotate(20deg);
+    top: 49%;
+    left: 75.5%;
+}
+
+.line-4 {
+    height: 75px;
+    transform: rotate(-142deg);
+    top: 19%;
+    left: 43%;
+}
+
+.line-5 {
+    height: 48px;
+    transform: rotate(69deg);
+    top: 38.2%;
+    left: 21.5%;
+}
+
+.line-6 {
+    height: 101px;
+    transform: rotate(69deg);
+    top: 77.5%;
+    left: 48%;
+}
+
+.line-7 {
+    height: 8px;
+    transform: rotate(9deg);
+    top: 99.5%;
+    left: 29.8%;
+}
+
+
+@keyframes twinkle {
+    0% {
+        opacity: .45;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes line {
+    0% {
+        opacity: .5;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Dawning of a New Day', cursive;
+    font-weight: 1;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    /*font-family: 'Yellowtail', cursive;*/
+}
+
+p.head {
+    color: white;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+div.empty {
+    padding: 30px;
+    margin: 0;
+}
+
+
+
+/* nav */
+nav {
+    /*    display: inline-block;*/
+    width: 100%;
+    height: 50px;
+    background: black;
+    margin: 0 auto;
+}
+
+nav a {
+    margin-top: 10px;
+    float: left;
+    padding: 10px;
+    width: 20%;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100;
+}
+
+nav a:hover {background: #483D8B;}
+
+div.intro {
+    width:100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    border:none;
+}
+
+div.intro h2 {
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100;}
+
+div.content {
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+
+h2,
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 27px;
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+p.dscrp {
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100;
+    background: black;
+    letter-spacing: 1.2px;
+}
+
+/*form*/
+
+form {
+     margin-left: 15%;
+    margin-right:15%;
+    width: 70%;}
+
+div.q {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+label,
+p.form {
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+}
+
+div.a {
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+input,
+textarea {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+}
+
+input[type="submit"]:hover {background: #483D8B;}
