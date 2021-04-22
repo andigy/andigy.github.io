@@ -161,17 +161,17 @@ div.card {
 
 p.card-text,
 div.card-text {
-    font-size: 1.5em;
-    padding: 10px;
+    font-size: 1em;
+    padding: 0px;
 }
 
 .far {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
 }
 
 h2.card-text { 
-padding: 20px;}
+padding: 15px;}
 /*MAIN vége*/
 
 
