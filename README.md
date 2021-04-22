@@ -1,2 +1,2 @@
-# andigy1.github.io
+# andigy.github.io
 My first GitHUB
