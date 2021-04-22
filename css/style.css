@@ -1,0 +1,301 @@
+body {
+    background: white;
+}
+
+.carousel-inner {
+    height: auto;
+    image-orientation: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.body {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+}
+
+/**NAV**/
+#banner {
+    background: midnightblue;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#banner:hover {
+    color: yellow
+}
+
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-text {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.navbar-text h1 {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 100;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+    font-size: 120%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+}
+
+.dropdown-item:hover {
+    background-color: #fed136;
+    color: #fff;
+}
+
+nav {
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+}
+
+div.dropdown-menu {
+    background: #fed136;
+}
+
+a.dropdown-item {
+    padding: 10px;
+}
+
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+
+
+/* mobile view */
+@media (max-width:500px) {
+    .navbar-nav {
+        background-color: #000;
+        border-top: 3px solid #fed136;
+        color: #fff;
+        z-index: 1;
+        margin-top: 5px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 0.7em 1em !important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+}
+
+
+#demo {
+    padding-top: 100px;
+}
+
+/**NAV vége**/
+
+
+/**Intro text**/
+.text-intro {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+.text-intro h1 {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 3em;
+}
+
+.text-intro h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.text-intro h1,
+.text-intro h2 {
+    color: whitesmoke;
+}
+
+/**Intro text vége**/
+
+
+/*MAIN*/
+
+div.row {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.card {
+    padding: 15px;
+    border-color: midnightblue;
+}
+
+
+.card-text {
+    color: black;
+}
+
+.card-deck {
+    padding: 35px;
+    padding-bottom: 30px;
+}
+
+p.card-text,
+div.card-text {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.far {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2.card-text { 
+padding: 20px;}
+/*MAIN vége*/
+
+
+
+/* Rólunk mondták*/
+div.about {
+    background: midnightblue;
+    padding: 30px;
+}
+
+div.carousel-item h1 {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* Rólunk mondták vége*/
+
+
+
+/*kapcsolat*/
+
+
+.top {
+    padding-bottom: 10px
+}
+
+.form-bg {
+    background: rgba(68, 68, 65, 0.77);
+    padding: 1px;
+}
+
+.form {
+    background: #fed136;
+    padding: 20px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 10px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.form-control {
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #61615e;
+    background: transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+button.btn {
+    display: block;
+    padding: 10px 35px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.btn-blue {
+    background-color: midnightblue;
+    color: #fff;
+}
+
+
+div.text {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.empty {
+    padding: 50px;
+}
+
+/*kapcsolat vége*/
+
+
+
+
+
+/*footer*/
+.footer {
+    padding: 40px;
+
+}
+
+.socialicons:hover {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+
+.socialicons {
+    padding: 30px;
+}
+
+.socialicons:nth-child(odd) {
+    color: midnightblue
+}
+
+.socialicons:nth-child(even) {
+    color: #fed136;
+}
+
+/*footer ends*/
